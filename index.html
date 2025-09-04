@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Ball Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Box Ball Game</h1>
+
+<label>Set Initial Balls: </label>
+<input type="number" id="initialBalls" value="2" aria-label="initialise balls">
+<button id="startBtn">Start Game</button>
+
+<div class="boxes">
+  <div class="box" id="boxA"><strong>A: 0</strong></div>
+  <div class="box" id="boxB"><strong>B: 0</strong></div>
+  <div class="box" id="boxC"><strong>C: 0</strong></div>
+  <div class="box" id="boxD"><strong>D: 0</strong></div>
+</div>
+
+<div id="controls">
+  <button id="choice1Btn">1: Double Balls</button>
+  <button id="choice2Btn">2: Shift Consecutive</button>
+  <button id="choice3Btn">3: Odd into Even</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
